@@ -159,6 +159,8 @@ section:nth-child(2n + 4) {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  cursor: pointer;
 }
 
 .input_text:focus {
