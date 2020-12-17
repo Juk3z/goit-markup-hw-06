@@ -187,7 +187,7 @@ section:nth-child(2n + 4) {
   height: 18px;
 }
 
-.input_field:focus + .input_logo {
+.input_text:focus + .input_logo {
   fill: var(--accent-color);
 }
 
