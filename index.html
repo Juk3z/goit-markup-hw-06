@@ -362,6 +362,19 @@
                     </li>
                 </ul>             
             </div>
+            <div class="subscribe">
+               <p class="subscribe_tittle">подпишитесь на рассылку</p>
+               <div class="subscribe_box">
+               <input class="input_subscribe" type="text" name="subscribe" placeholder="E-mail">
+               <button class="subscribe_button">
+                   Подписаться
+                    <svg class="subscribe_icon">
+                        <use href="./images/svg/symbol-defs.svg#subscribe"></use>
+                    </svg>
+               </button>
+            </div>
+                
+            </div>
         </div>
     </footer>
 
@@ -373,43 +386,55 @@
                     <use href="./images/svg/symbol-defs.svg#close"></use>
                 </svg>
             </button>
+        
             <h2 class="modal_tittle">оставьте свои данные, мы вам перезвоним</h2>
-            <label class="input_field">
-                <span class="input_tittle">Имя</span>
-                <div class="input_box">
-                    <input class="input_text" type="text" name="username">
-                    <svg class="input_logo">
-                        <use href="./images/svg/symbol-defs.svg#username"></use>
-                    </svg>
-                </div>
-            </label>
+            <form action="" method="">
+                <label class="input_field">
+                    <span class="input_tittle">Имя</span>
+                    <div class="input_box">
+                        <input class="input_text" type="text" name="username">
+                        <svg class="input_logo">
+                            <use href="./images/svg/symbol-defs.svg#username"></use>
+                        </svg>
+                    </div>
+                </label>
 
-            <label class="input_field">
-                <span class="input_tittle">Телефон</span>
-                <div class="input_box">
-                    <input class="input_text" type="tel" name="phonenumber">
-                    <svg class="input_logo">
-                        <use href="./images/svg/symbol-defs.svg#phonenumber"></use>
-                    </svg>
-                </div>
-            </label>
+                <label class="input_field">
+                    <span class="input_tittle">Телефон</span>
+                    <div class="input_box">
+                        <input class="input_text" type="tel" name="phonenumber">
+                        <svg class="input_logo">
+                            <use href="./images/svg/symbol-defs.svg#phonenumber"></use>
+                        </svg>
+                    </div>
+                </label>
 
-            <label class="input_field">
-                <span class="input_tittle">Почта</span>
-                <div class="input_box">
-                    <input class="input_text" type="email" name="modalmail">
-                    <svg class="input_logo">
-                        <use href="./images/svg/symbol-defs.svg#modalmail"></use>
-                    </svg>
-                </div>
-            </label>
+                <label class="input_field">
+                    <span class="input_tittle">Почта</span>
+                    <div class="input_box">
+                        <input class="input_text" type="email" name="modalmail">
+                        <svg class="input_logo">
+                            <use href="./images/svg/symbol-defs.svg#modalmail"></use>
+                        </svg>
+                    </div>
+                </label>
 
-            <label class="input_field">
-                <span class="input_tittle">Комментарий</span>
-                <div class="input_box">
-                    <textarea class="input_text comment" type="text" name="comment" placeholder="Введите текст"></textarea>
-                </div>
-            </label>
+                <label class="input_field comment_field">
+                    <span class="input_tittle">Комментарий</span>
+                    <div class="input_box">
+                        <textarea class="input_text comment" type="text" name="comment" placeholder="Введите текст"></textarea>
+                    </div>
+                </label>
+
+                <label class="input_field accept_box">
+                        <input class="visualy_hidden input_accept" type="checkbox" name="accept">
+                        <span class="accept_icon"></span>
+                        <span class="accept_text">Соглашаюсь с рассылкой и принимаю <a class="accept_link" href="">Условия договора</a></span>
+                </label>
+
+                <Button class="modal_send">Отправить</Button>
+
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
