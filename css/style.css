@@ -947,6 +947,7 @@ a {
 
 .input_subscribe:focus {
   outline: 0;
+  border-color: var(--accent-color);
 }
 
 .subscribe_button {
