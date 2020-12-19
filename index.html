@@ -387,49 +387,42 @@
                 </svg>
             </button>
         
-            <h2 class="modal_tittle">оставьте свои данные, мы вам перезвоним</h2>
-            <form action="" method="">
-                <label class="input_field">
-                    <span class="input_tittle">Имя</span>
-                    <div class="input_box">
-                        <input class="input_text" type="text" name="username">
-                        <svg class="input_logo">
-                            <use href="./images/svg/symbol-defs.svg#username"></use>
-                        </svg>
-                    </div>
-                </label>
+            <h2 class="modal_tittle">Оставьте свои данные, мы вам перезвоним</h2>
+            <form action="#" method="post">
 
-                <label class="input_field">
-                    <span class="input_tittle">Телефон</span>
-                    <div class="input_box">
-                        <input class="input_text" type="tel" name="phonenumber">
-                        <svg class="input_logo">
-                            <use href="./images/svg/symbol-defs.svg#phonenumber"></use>
-                        </svg>
-                    </div>
-                </label>
+                <label class="input_tittle" for="username">Имя</label>
+                <div class="input_box">
+                        <input class="input_field" type="text" name="username" id="username">
+                    <svg class="input_logo">
+                        <use href="./images/svg/symbol-defs.svg#username"></use>
+                    </svg>
+                </div>
+            
+                <label class="input_tittle" for="usertel">Телефон</label>
+                <div class="input_box">
+                    <input class="input_field" type="tel" name="usertel" id="usertel">
+                    <svg class="input_logo">
+                        <use href="./images/svg/symbol-defs.svg#phonenumber"></use>
+                    </svg>
+                </div>
 
-                <label class="input_field">
-                    <span class="input_tittle">Почта</span>
-                    <div class="input_box">
-                        <input class="input_text" type="email" name="modalmail">
-                        <svg class="input_logo">
-                            <use href="./images/svg/symbol-defs.svg#modalmail"></use>
-                        </svg>
-                    </div>
-                </label>
+                <label class="input_tittle" for="usermail">Почта</label>
+                <div class="input_box">
+                    <input class="input_field" type="Email" name="usermail" id="usermail">
+                    <svg class="input_logo">
+                        <use href="./images/svg/symbol-defs.svg#modalmail"></use>
+                    </svg>
+                </div>
 
-                <label class="input_field comment_field">
-                    <span class="input_tittle">Комментарий</span>
-                    <div class="input_box">
-                        <textarea class="input_text comment" type="text" name="comment" placeholder="Введите текст"></textarea>
-                    </div>
-                </label>
+                <label class="input_tittle" for="comment">Комментарий</label>
+                <div class="input_box comment_box">
+                    <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                </div>
 
-                <label class="input_field accept_box">
-                        <input class="visualy_hidden input_accept" type="checkbox" name="accept">
-                        <span class="accept_icon"></span>
-                        <span class="accept_text">Соглашаюсь с рассылкой и принимаю <a class="accept_link" href="">Условия договора</a></span>
+                <label class="accept_box">
+                    <input class="visualy_hidden input_accept" type="checkbox" name="checkbox">
+                    <span class="accept_icon"></span>
+                    <span class="accept_text">Соглашаюсь с рассылкой и принимаю <a class="accept_link" href="">Условия договора</a></span>
                 </label>
 
                 <Button class="modal_send">Отправить</Button>
