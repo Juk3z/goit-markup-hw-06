@@ -363,17 +363,16 @@
                 </ul>             
             </div>
             <div class="subscribe">
-               <p class="subscribe_tittle">подпишитесь на рассылку</p>
-               <div class="subscribe_box">
-               <input class="input_subscribe" type="text" name="subscribe" placeholder="E-mail">
-               <button class="subscribe_button">
-                   Подписаться
-                    <svg class="subscribe_icon">
-                        <use href="./images/svg/symbol-defs.svg#subscribe"></use>
-                    </svg>
-               </button>
-            </div>
-                
+               <p class="subscribe_tittle">подпишитесь на рассылку
+               </p>
+               <form class="subscribe_form" action="#">
+                    <input class="input_subscribe" type="text" name="subscribe" placeholder="E-mail">
+                    <button class="subscribe_button">Подписаться
+                        <svg class="subscribe_icon">
+                            <use href="./images/svg/symbol-defs.svg#subscribe"></use>
+                        </svg>
+                    </button>
+               </form>
             </div>
         </div>
     </footer>
@@ -421,7 +420,7 @@
 
                 <label class="accept_box">
                     <input class="visualy_hidden input_accept" type="checkbox" name="checkbox">
-                    <span class="accept_icon"></span>
+                    <!-- <span class="accept_icon"></span> -->
                     <span class="accept_text">Соглашаюсь с рассылкой и принимаю <a class="accept_link" href="">Условия договора</a></span>
                 </label>
 
